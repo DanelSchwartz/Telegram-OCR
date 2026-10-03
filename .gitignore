@@ -1,0 +1,13 @@
+# Secrets / sessions - never commit these (a .session file = full account access)
+.env
+*.session
+*.session-journal
+config.ini
+
+# Runtime data
+data/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
